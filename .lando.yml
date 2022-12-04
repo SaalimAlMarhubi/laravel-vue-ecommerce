@@ -1,0 +1,13 @@
+name: project
+recipe: laravel
+
+config:
+  webroot: public
+  php: "8.1"
+  via: nginx
+  database: "mysql"
+  xdebug: false
+  cache: redis
+services:
+  myservice:
+    type: phpmyadmin
